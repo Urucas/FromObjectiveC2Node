@@ -12,7 +12,7 @@ node index.js
 #How it works?
 The process to export a simple Hello World! built on objective-c to node.js it's quite easy.
 
-As a first step let's create an objective-c method to "Hello World!" you;
+As a first step let's create an objective-c file to "Hello World!" you;
 ```c++
 // hello.m file
 #import <Foundation/Foundation.h>
@@ -36,14 +36,14 @@ int main() {
 }
 ```
 
-Now, let's compile the ```hello.m``` source with ```clang``` to create an executable file;
+Now, we'll compile the ```hello.m``` source with ```clang``` to create an executable file;
 ```bash
 clang -fobjc-arc -framework Foundation hello.m -o hello.o
 ```
 
 
 Once you have the compiled ```hello.o```, we can execute this from node.js 
-Let's create a module that for this;
+Let's create a module for this;
 ```javascript
 // hello.js
 'use strict';
