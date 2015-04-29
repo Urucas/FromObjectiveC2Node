@@ -1,6 +1,6 @@
 # FromObjectiveC2Node
 
-A Hello World! built in Objective-C you can run from node.js
+A simple "Hello World!" built on Objective-C & executed with node.js
 
 # Usage
 ```bash
